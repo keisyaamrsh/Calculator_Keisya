@@ -12,7 +12,7 @@ class SecondActivity : AppCompatActivity() {
 
         val result = intent.getDoubleExtra("result", 0.0)
         val tvResult: TextView = findViewById(R.id.tvResult)
-        tvResult.text = "Hasil: $result"
+        tvResult.text = "Result: $result"
 
         val tvNimName: TextView = findViewById(R.id.tvNimName)
         tvNimName.text = "NIM: 225150407111055 \nNama: Keisya Marshanda Setiandini"
